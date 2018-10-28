@@ -1,0 +1,41 @@
+{
+    "description": "Common code for DDD learning projects",
+    "homepage": "https://github.com/anhchienhoang/ddd-common",
+    "name": "hac/ddd-common",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ddd",
+        "domain driven design",
+        "ddd common",
+        "ddd shared kernel"
+    ],
+    "authors": [
+        {
+            "name": "Chien Hoang",
+            "homepage": "https://github.com/anhchienhoang"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ramsey/uuid": "^3.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DDDCommon\\": "src/DDDCommon"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DDDCommon\\Tests\\": "tests/DDDCommon"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
